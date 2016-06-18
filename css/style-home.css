@@ -1,0 +1,101 @@
+html {
+ height:100%;
+ min-height:100%;
+}
+
+body {
+  font-family: 'Josefin Sans', cursive;
+  padding-bottom: 20px;
+  background: url(images/bg5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.navbar {
+	background-color:rgba(255, 255, 255, 0.00); 
+	margin-bottom: 20px;
+	font-size: 25px !important; 
+	border: 0px;
+	padding-top:20px;
+	padding-bottom:10px;
+	padding-left:20px;
+}
+
+.navbar-brand {
+	font-size: 25px !important; 
+}
+
+.navbar a {
+	color: #001a4d !important;
+}
+
+a {
+        /* CSS Transition */
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+ul.nav a:hover,
+ul.nav a:focus,
+ul.nav a:active {
+  background-color:rgba(204, 221, 255, .9) !important;
+  border-color: #001a4d !important;
+}
+
+.jumbotron {
+	background-color:rgba(255, 255, 255, .9);
+	border-radius: 0px !important;
+
+}
+
+.jumbotron-smallpadding {
+	padding:40px !important;
+}
+
+.jumbotron-masonry {
+	padding:0px !important;
+	padding-left: 15px !important;
+	padding-right: 25px !important;
+}
+
+.image-masonry {
+	margin:10px;
+	margin-right:0px;
+}
+
+.image-side-padding {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.page-header {
+	border-width: 0px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.no-top-padding {
+	margin-top: 5px;
+}
+
+.control-label {
+	font-weight: normal !important;
+}
+
+#grid[data-columns]::before {
+	content: '3 .column.size-1of3';
+}
+
+/* These are the classes that are going to be applied: */
+.column { float: left; }
+.size-1of3 { width: 33.333%; }
